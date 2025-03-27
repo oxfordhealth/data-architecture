@@ -1,16 +1,31 @@
-site_name: Oxford Health NHS Foundation Trust Data Architecture
+site_name: OHFT Data Architecture
 nav:
   - Home: index.md
-  - Architecture:
-    - Macro Architecture: macro-architecture.md
-    - Overall Detailed Architecture: detailed-architecture.md
-theme:
-  name: dracula
-  logo: res/img/logo.png
+  - Architecture: architecture.md
+
 repo_url: https://github.com/oxfordhealth/data-architecture
+
 markdown_extensions:
   - smarty
   - fenced_code
   - abbr
 plugins:
   - drawio
+
+theme:
+  name: landing
+  tagline: "Better Care Through Data: Trusted, Secure, Connected."
+
+  favicon: res/img/logo.png
+  avatar: res/img/logo.png
+  avatar_size: 12rem
+  round_avatar: True
+
+  header_layout:
+    -
+    - tagline
+    - avatar
+    - title
+    - nav
+
+  share_btn: False
