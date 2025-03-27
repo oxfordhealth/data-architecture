@@ -1,0 +1,6 @@
+site_name: Oxford Health NHS Foundation Trust Data Architecture
+nav:
+  - Home: index.md
+  - About: about.md
+theme: dracula
+repo_url: https://github.com/oxfordhealth/data-architecture
