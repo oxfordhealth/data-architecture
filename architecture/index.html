@@ -5,16 +5,16 @@
 <title>Architecture - OHFT Data Architecture</title>
 <style>
       /* load heading font */
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700');
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=PT Sans Narrow:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=PT Sans Narrow:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=PT Sans Narrow:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=PT Sans Narrow:ital,wght@700');
 
       /* load body font */
-      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@400');
-      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:wght@700');
-      @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Source Sans Pro:ital,wght@400');
+      @import url('https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@700');
+      @import url('https://fonts.googleapis.com/css2?family=Source Sans Pro:ital,wght@700');
 
       /* load mono font */
       @import url('https://fonts.googleapis.com/css2?family=JetBrains Mono:wght@400');
@@ -31,18 +31,18 @@
   
       :root {
         /* colors */
-        --primary: #05b2dc;
-        --secondary: #ef9B0f;
-        --tertiary: #ef3e36;
+        --primary: #005EB8;
+        --secondary: #0072CE;
+        --tertiary: #003087;
         /* shades */
-        --base: #ffffff;
-        --mantle: #f5f4f5;
-        --crust: #d4d2d5;
-        --overlay: #aBaBaE;
+        --base: #FFFFFF;
+        --mantle: #E8EDEE;
+        --crust: #768692;
+        --overlay: #425563;
         --footer: #000000cc;
         /* text */
-        --text: #343233;
-        --hltext: #ffffff;
+        --text: #231f20;
+        --hltext: #FFFFFF;
         color: var(--text);
         /* background-specific text */
         --primary-text: var(--hltext);
@@ -54,8 +54,8 @@
         --overlay-text: var(--hltext);
         --footer-text: var(--hltext);
         /* fonts */
-        --heading: Poppins, Noto Color Emoji;
-        --body: Noto Sans, Noto Color Emoji;
+        --heading: PT Sans Narrow, Noto Color Emoji;
+        --body: Source Sans Pro, Noto Color Emoji;
         --mono: JetBrains Mono, Noto Color Emoji;
         font-family: var(--body); 
       }
@@ -63,11 +63,11 @@
       @media (prefers-color-scheme: dark) {
         :root {
           /* colors */
-          --primary: #05b2dc;
-          --secondary: #ef9B0f;
-          --tertiary: #ef3e36;
+          --primary: #41B6E6;
+          --secondary: #41B6E6;
+          --tertiary: #00A9CE;
           /* shades */
-          --base: #343233;
+          --base: #231f20;
           --mantle: #373536;
           --crust: #3E3C3D;
           --overlay: #646461;
@@ -114,10 +114,10 @@
         
       }
       footer#footer a {
-        color: #ef9B0f;
+        color: #41B6E6;
       }
       footer#footer a:hover {
-        color: #ef3e36;
+        color: #00A9CE;
       }
     </style>
 <link href="res/img/logo.png" rel="icon" type="image/x-icon"/>
@@ -174,6 +174,7 @@
 </content>
 <footer id="footer">
 <p>Compiled from markdown using <a href="https://www.mkdocs.org/">MkDocs</a>. Theme is <a href="https://teparsons.github.io/mkdocs-landing/">Landing</a> by <a href="https://toddparsons.co.uk">Todd Parsons</a>.</p>
+<a href="https://github.com/oxfordhealth/data-architecture" id="page-source"><i class="fa-brands fa-github"></i> Page source</a>
 </footer>
 <script src="https://viewer.diagrams.net/js/viewer-static.min.js"></script></body>
 </html>
