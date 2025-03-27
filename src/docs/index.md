@@ -13,5 +13,4 @@ The initial stated goals for the OHFT Data Architecture group are:
 - To put a plan in place to ensure OHFT architecture is fit for purpose, adheres to our principles, can deliver the vision
 
 
-
 *[OHFT]: Oxford Health NHS Foundation Trust

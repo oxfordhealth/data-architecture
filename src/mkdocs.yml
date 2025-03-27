@@ -1,7 +1,9 @@
 site_name: Oxford Health NHS Foundation Trust Data Architecture
 nav:
   - Home: index.md
-  - About: about.md
+  - Architecture:
+    - Macro Architecture: macro-architecture.md
+    - Overall Detailed Architecture: detailed-architecture.md
 theme:
   name: dracula
   logo: res/img/logo.png
