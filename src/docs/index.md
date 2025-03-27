@@ -1,17 +1,17 @@
-# Welcome to MkLorum
+# OHFT Data Architecture and Data Engineering
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Purpose of this site
 
-## Commands
+This site is a collection of documents that describe the data architecture and data engineering practices at OHFT. The documents are intended to be a reference for all data users within the trust.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The initial stated goals for the OHFT Data Architecture group are:
 
-## Project layout
+- To be clear about how we are sharing data today, from where, via what and to where
+- To take informed views about additional new data flows
+- To look at the vision for the ICS and think about how OHFT architecture can meet the requirements
+- To agree a set of principles around data sharing and data flows
+- To put a plan in place to ensure OHFT architecture is fit for purpose, adheres to our principles, can deliver the vision
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+
+*[OHFT]: Oxford Health NHS Foundation Trust
