@@ -28,4 +28,31 @@ theme:
     - title
     - nav
 
+  heading_font: PT Sans Narrow
+  body_font: Source Sans Pro
+
+  primary_color: "#005EB8"
+  secondary_color: "#0072CE"
+  tertiary_color: "#003087"
+  base_color: "#FFFFFF"
+  mantle_color: "#E8EDEE"
+  crust_color: "#768692"
+  overlay_color: "#425563"
+  text_color: "#231f20"
+  hltext_color: "#FFFFFF"
+
+  primary_color_dark: "#41B6E6"
+  secondary_color_dark: "#41B6E6"
+  tertiary_color_dark: "#00A9CE"
+  base_color_dark: "#231f20"
+#  mantle_color_dark:
+#  crust_color_dark:
+#  overlay_color_dark:
+#  text_color_dark:
+#  hltext_color_dark:
+
+
+  page_source:
+    link: https://github.com/oxfordhealth/data-architecture
+
   share_btn: False

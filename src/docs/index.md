@@ -1,4 +1,4 @@
-# OHFT Data Architecture and Data Engineering
+# Data Architecture and Engineering
 
 ## Purpose of this site
 
